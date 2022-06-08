@@ -362,7 +362,7 @@ body {
 
 @font-face { 
  font-family: 'brothers.otf';
- src: url(../fonts/brothers.otf) format('opentype'); 
+ src: url(./brothers.otf) format('opentype'); 
 } 
 
  @media screen and (max-width: 576px) {
@@ -370,8 +370,7 @@ body {
     #content{
        flex-direction: column; 
         height: auto;
-        margin-bottom: -270px;
-        
+        margin-bottom: -270px;      
     }
      
      .cell{
