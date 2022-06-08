@@ -204,11 +204,11 @@ body {
 .cell h2{
     color: #DF1D3D;
    font-family: 'brothers.otf';
-    font-size: 35px;
+    font-size: 2.3rem;
     
 }
 .cell p{
-    font-size: 18px;
+    font-size: 1rem;
     width: 800px;
 }
 
@@ -219,26 +219,26 @@ body {
     
 }
 
-#cell6,#cell7,#cell8,#cell9{
+.cell6,.cell7,.cell8,.cell9{
     flex:0 1 24%;
     height: 300px;
     margin: 5px;
     border: solid 2px black;
 }
 
-#cell6 img{
+.cell6 img{
     max-width: 100%;
     height: inherit;
 }
-#cell7 img{
+.cell7 img{
     max-width: 100%;
     height: inherit;
 }
-#cell8 img{
+.cell8 img{
     max-width: 100%;
     height: inherit;
 }
-#cell9 img{
+.cell9 img{
     max-width: 100%;
     height: inherit;
 }
@@ -360,6 +360,89 @@ body {
 
 @font-face { 
  font-family: 'brothers.otf';
- src: url(./brothers.otf) format('opentype'); 
+ src: url(../fonts/brothers.otf) format('opentype'); 
 } 
+
+ @media screen and (max-width: 576px) {
+    
+    #content{
+       flex-direction: column; 
+        height: auto;
+        margin-bottom: -270px;
+        
+    }
+     
+     .cell{
+    flex-direction: column;
+    padding: 60px;
+    margin: auto;
+}
+
+#cell4{
+    margin-top: -80px;
+    
+}
+
+#cell5{
+    margin:auto;
+     
+
+}
+
+#cell5 p{
+    
+    width: 360px;
+
+    
+}
+
+#people{
+    flex-direction: column;
+    height: auto;
+    
+}
+     
+     .myButton {
+    margin: 20px 180px 50px 110px;
+}
+     #people{
+    display: flex;
+    height: 950px;
+    padding: 15px;
+    
+}
+     
+.cell6,.cell7,.cell8,.cell9{
+    display: flex;
+    height: 550px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+#vid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+    margin-top: 980px;
+    
+}
+
+#video1,#video2 {
+    flex:1 0 50%;
+    margin: 20px 0px;
+    display: flex;
+}
+
+#add{
+    flex-direction: column;
+    margin-top: 00px;
+}
+
+#hea{
+    margin-top: 1300px;
+}
+     
+    
+}
 
