@@ -386,7 +386,7 @@ footer p{
 
 @font-face { 
  font-family: 'brothers.otf';
- src: url(../fonts/brothers.otf) format('opentype'); 
+ src: url(./brothers.otf) format('opentype'); 
 } 
 
  @media screen and (max-width: 576px) {
