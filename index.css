@@ -512,7 +512,9 @@ footer p{
 #hea{
     margin-top: 1400px;
 }
-     
+     .overlay{
+         display: none;
+     }
     
 }
 
