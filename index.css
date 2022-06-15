@@ -387,7 +387,7 @@ footer p{
 
 /*Mercedes*/
 
-#seccion2 h2,p{
+#seccion2 h2,#seccion2 p{
     margin: 5px;
     text-align: center;
 }
