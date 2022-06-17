@@ -136,7 +136,7 @@ body {
         
         .overlay {
             position:absolute;
-            top:400px;
+            top:200px;
             left:955px;
             right: 90px,
             z-index:1;
